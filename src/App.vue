@@ -1,23 +1,20 @@
 <template>
-  <h1>
-    Hello <span class="aaa">{{ name }}</span>
-  </h1>
+  <h1>Hello <span class="blue">{{ name }}</span></h1>
 </template>
 
 <script>
-import { defineComponent } from '../vue';
+import { defineComponent } from 'vue';
 export default defineComponent({
-  props: {
-    name: {
-      type: String,
-      default: "world"
+  setup() {
+    return {
+      name: 'world'
     }
   }
 })
 </script>
 
 <style scoped>
-.aaa {
+.blue {
   color: blue;
 }
 </style>
