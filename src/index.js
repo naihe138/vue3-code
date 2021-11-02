@@ -1,6 +1,8 @@
 import { createApp } from "vue";
 import App from "./App.vue";
-const root = document.getElementById('app');
+// import App from "./lifecycle.vue";
+console.log('====================================');
 console.log(App);
-debugger
+console.log('====================================');
+const root = document.getElementById('app');
 createApp(App).mount(root)
