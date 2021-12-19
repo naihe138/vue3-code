@@ -1,21 +1,20 @@
 <template>
-  <!-- <Lefecycle v-if="state.show" /> -->
+  <Lefecycle v-if="state.show" />
   <button @click="toShow">卸载组件</button>
 </template>
 
 <script>
 import { defineComponent, reactive } from 'vue';
-// import Lefecycle from './lifecycle.vue';
+import Lefecycle from './lifecycle.vue';
 export default defineComponent({
-  // components: {
-  //   Lefecycle,
-  // },
+  components: {
+    Lefecycle,
+  },
   setup() {
     const state = reactive({
       show: true
     })
     const toShow = () => {
-      debugger
       state.show = !state.show;
     }
     return {

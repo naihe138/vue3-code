@@ -1,5 +1,5 @@
 import { createApp } from "vue";
-import App from "./App.vue";
+import App from "./event.vue";
 // import App from "./lifecycle.vue";
 console.log('====================================');
 console.log(App);

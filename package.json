@@ -3,16 +3,16 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@rollup/plugin-node-resolve": "^8.0.0",
-    "rollup": "^2.44.0",
-    "rollup-plugin-postcss": "^2.0.4",
-    "@vue/compiler-sfc": "^3.0.11",
-    "rollup-plugin-vue": "^6.0.0",
-    "vue": "^3.0.5",
-    "rollup-plugin-livereload": "^2.0.0",
-    "rollup-plugin-serve": "^1.1.0",
+    "@rollup/plugin-alias": "^3.1.8",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@vue/compiler-sfc": "^3.2.21",
     "cross-env": "^7.0.3",
-    "@rollup/plugin-alias": "^3.1.2"
+    "rollup": "^2.59.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-postcss": "^4.0.1",
+    "rollup-plugin-serve": "^1.1.0",
+    "rollup-plugin-vue": "^6.0.0",
+    "vue": "^3.2.21"
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development rollup -cw",

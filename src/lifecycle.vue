@@ -11,7 +11,6 @@ export default defineComponent({
     function changeText() {
       text.value = Math.random();
     }
-    debugger
     onBeforeMount(() => {
       console.log('onBeforeMount');
     })
