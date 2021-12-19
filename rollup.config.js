@@ -35,6 +35,7 @@ if (process.env.NODE_ENV === 'development') {
 
 export default {
   input: './src/index.js',
+  sourcemap: true,
   external: [],
   plugins,
   output: [
